@@ -35,6 +35,6 @@ app.get('*', function (req, res) {
 
 //app.listen(8080)
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Example app listening at http://localhost:${port}`)
 })
 
